@@ -1,0 +1,28 @@
+// config
+// ==================================================
+@import './source/scss/config/reset';
+@import './source/scss/config/mixins';
+@import './source/scss/config/variables';
+
+// font
+// ==================================================
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+// font-family: 'Oswald', sans-serif;
+
+// styles components
+// ==================================================
+@import './source/scss/components/backgrond';
+@import './source/scss/components/main';
+@import './source/scss/components/score';
+@import './source/scss/components/numeric-block';
+
+// adaptive
+// ==================================================
+@import './source/scss/config/media';
+
+// Позиционирование
+// Блочная модель
+// Типографика
+// Оформление
+// Анимация
+// Разное
