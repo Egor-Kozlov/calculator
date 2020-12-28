@@ -1,1 +1,22 @@
-//
+.keyboard {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5vw;
+    width: 85%;
+    height: 85%;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.button {
+    box-sizing: border-box;
+    text-align: center;
+    
+    font-size: 3.8em;
+    background: rgba(240, 240, 243, 1);
+    border-radius: 10%;
+    box-shadow: -1px -1px 10px  rgba(255, 255, 255, 0.9), 0 0 15px 10px rgba(34, 60, 80, 0.2);
+}
+
