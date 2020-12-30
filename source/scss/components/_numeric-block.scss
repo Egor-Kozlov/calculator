@@ -1,8 +1,22 @@
+.main__numeric-block {
+    padding-top: 4%;
+}
+.numeric-block__line {
+    position: absolute;
+    top: 4.5%;
+    left: 33.5%;
+    width: 120px;
+    height: 6px;
+    background: #F0F0F3;
+    box-shadow: -1px -1px 3px #FFFFFF, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+    border-radius: 12px;
+}
+
 .keyboard {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1.5vw;
+    grid-gap: 1vw;
     width: 85%;
     height: 85%;
     margin: 0 auto;
@@ -11,12 +25,33 @@
 }
 
 .button {
-    box-sizing: border-box;
-    text-align: center;
-    
-    font-size: 3.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    user-select: none;
+    color: #728AB7;
+    font-size: 3.3em;
     background: rgba(240, 240, 243, 1);
-    border-radius: 10%;
-    box-shadow: -1px -1px 10px  rgba(255, 255, 255, 0.9), 0 0 15px 10px rgba(34, 60, 80, 0.2);
+    border-radius: 16%;
+    box-shadow: -7px -7px 15px rgba(255, 255, 255, 0.8), 7px 7px 18px rgba(174, 174, 192, 0.4);
 }
+
+.button-equal {
+    color: white;
+    background: #2DD3C5;
+}
+
+.button-c, .button-plus-minus, .button-percent {
+    color: #898989;
+}
+
+.button-partition, .button-multiply, .button-minus, .button-plus {
+    color: #745FF2;
+}
+
+.button-zero {
+    grid-column: 1/3;
+}
+
 

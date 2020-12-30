@@ -3,7 +3,7 @@
     background: rgba(240, 240, 243, 1);
     border-radius: 10%;
     transform: scale(1);
-    box-shadow: -10px -8px 8px rgba(255, 255, 255, 0.9), 0 0 10px 10px rgba(34, 60, 80, 0.2);
+    box-shadow: -10px -8px 9px rgba(255, 255, 255, 0.85), 0 0 10px 10px rgba(34, 60, 80, 0.2);
     transition: box-shadow 0.5s, transform 0.5s;
 }
 
@@ -31,7 +31,7 @@
 .ellipse {
     position: absolute;
     border-radius: 50%;
-    box-shadow: -10px -8px 8px rgba(255, 255, 255, 0.9), 0 0 10px 10px rgba(34, 60, 80, 0.2);
+    box-shadow: -10px -8px 9px rgba(255, 255, 255, 0.85), 0 0 10px 10px rgba(34, 60, 80, 0.2);
     transition: box-shadow 0.5s, transform 0.5s;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .ellipse-left-bottom {
-    top: 70%;
+    top: 75%;
     left: 10%;
     width: 370px;
     height: 370px;
