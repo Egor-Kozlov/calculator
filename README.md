@@ -1,1 +1,1 @@
-https://egor-kozlov.github.io/teest/
+https://egor-kozlov.github.io/calculator/
